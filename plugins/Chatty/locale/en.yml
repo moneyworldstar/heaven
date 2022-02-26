@@ -1,0 +1,68 @@
+messages:
+  # Non-removable lines.
+  # If you delete the line, a default English localization will be applied.
+  only-for-players: '&cThis command is only for players.'
+  chat-not-found: '&cApplicable chat not found. You can''t send the message.'
+  reload: '&aConfig successfully reloaded!'
+  no-permission: '&7Неизвестная команда.'
+  spy-on: '&aYou have been enabled spy-mode.'
+  spy-off: '&cYou have been disabled spy-mode.'
+  cooldown: '&cWait for {cooldown} seconds, before send message in this chat again.'
+  not-enough-money: '&cYou need {money} money to send message in this chat.'
+
+  clearchat-command:
+    usage: '&fИспользование: &b/{label} [all]'
+    clear-chat-for-all: '&bЧат очищен.'
+    clear-chat-for-yourself: '&bЧат очищен.'
+
+  msg-command:
+    usage: '&fИспользование: &b/{label} (никнейм) (сообщение)'
+    player-not-found: '&bИгрок не найден.'
+    cannot-message-yourself: '&bВы не можете писать самому себе.'
+
+  reply-command:
+    usage: '&fИспользование: &b/{label} (сообщение)'
+    target-not-found: '&bИгрок не найден.'
+
+  ignore-command:
+    usage: '&fИспользование: &b/{label} (никнейм)'
+    player-not-found: '&bИгрок не найден.'
+    ignore-list: '&fСписок игнорируемых: &b{players}.'
+    ignore-list-delimiter: '&f, &b'
+    add-ignore: '&fТеперь Вы игнорируете &b{player}.'
+    remove-ignore: '&b{player} &fудален из списка игнорируемых.'
+    cannot-ignore-yourself: '&bВы не можете игнорировать самого себя.'
+
+  swears-command:
+    usage: '&fИспользование: &b/{label} add <word>'
+    add-word: '&aYou added word {word} to whitelist.'
+
+  chat-command:
+    usage: '&fИспользование: &b/{label} <chat>'
+    chat-not-found: '&cChat with this name was not found.'
+    chat-switched: '&aYou have switched to chat "{chat}".'
+    no-chat-permission: '&cYou don''have permission for this chat.'
+
+  prefix-command:
+    usage: '&fИспользование: &b/{label} (никнейм) <<prefix>|clear>'
+    no-permissions-others: '&cYou don''t have permission to changing prefixes of other players.'
+    player-not-found: '&bИгрок не найден.'
+    length-limit-min: '&cPrefix cannot be shorter than {limit} symbols.'
+    length-limit-max: '&cPrefix cannot be longer than {limit} symbols.'
+    prefix-clear: '&aYou cleared prefix of {player}.'
+    prefix-set: '&aYou set prefix &r{prefix} &afor player {player}.'
+
+  suffix-command:
+    usage: '&fИспользование: &b/{label} (никнейм) <<suffix>|clear>'
+    no-permissions-others: '&cYou don''t have permission to changing suffixes of other players.'
+    player-not-found: '&bИгрок не найден.'
+    length-limit-min: '&cSuffix cannot be shorter than {limit} symbols.'
+    length-limit-max: '&cSuffix cannot be longer than {limit} symbols.'
+    prefix-clear: '&aYou cleared suffix of {player}.'
+    prefix-set: '&aYou set suffix &r{suffix} &afor player {player}.'
+
+  # Removable lines.
+  # Delete the line to disable message.
+  advertisement-found: '&cAdvertisement is detected in your message.'
+  caps-found: '&cCaps abuse is detected in your message.'
+  swear-found: '&cSwearing is detected in your message.'

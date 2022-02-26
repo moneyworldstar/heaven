@@ -1,0 +1,43 @@
+#
+# Language-File translated by:    mani123
+#
+  
+  
+  
+Plugin:
+  
+  plugin-enabled: "&fНеизвестная команда."
+  plugin-hook: "&fНеизвестная команда."
+  plugin-update: "[P]&a Вышла новая версия:&6 %NewVersion%&a!\n[P] &aУ вас:&6 %Version%&a!\n[P] &aСкачайте последнюю версию:\n[P]&6 %Path%"
+  plugin-disabled: "&fНеизвестная команда."
+  plugin-prefix: "&f[&6GSit&f]"
+  
+  
+  
+Messages:
+  
+  command-reload: "&fНеизвестная команда."
+  command-permission-error: "&fНеизвестная команда."
+  command-console-error: "&fНеизвестная команда."
+  
+  command-gsittoggle-on: ""
+  command-gsittoggle-off: ""
+  
+  action-sit-water-error: "&fВы не можете здесь сидеть."
+  action-sit-location-error: "&fВы не можете здесь сидеть."
+  action-sit-area-error: "&fВы не можете здесь сидеть."
+  action-sit-ground-error: "&fВы не можете здесь сидеть."
+  action-sit-already-error: "&fВы уже сидите."
+  action-sit-safe-error: "&fВы не можете здесь сидеть."
+  action-sit-world-error: "&fВы не можете здесь сидеть."
+  action-sit-target-error: "&fВы не можете здесь сидеть."
+  action-sit-info: "&fИспользуйте &bSHIFT&f, чтобы встать"
+  
+  action-lay-location-error: "[P]&c Вы не можете здесь лежать!"
+  action-lay-area-error: "[P]&c Вы не можете лежать &4тут!"
+  action-lay-ground-error: "[P]&c Вы можете лежать только на земле!"
+  action-lay-already-error: "[P]&c Ты уже лежишь!"
+  action-lay-world-error: "[P]&c Вы не можете лежать в этом мире!"
+  action-lay-info: "&fИспользуйте &bSHIFT&f, чтобы встать"
+  
+  action-blocked-error: "&fНеизвестная команда."

@@ -1,0 +1,21 @@
+animations:
+  info:
+    # Text changing interval in milliseconds (ticks).
+    interval: 800
+
+    # Display the text randomly?
+    random: false
+
+    # The list of texts that will appear
+    texts:
+    - "Пинг: #B2E7FF%ping% &f| TPS: #B2E7FF%tps%"
+  info2:
+    # Text changing interval in milliseconds (ticks).
+    interval: 600
+
+    # Display the text randomly?
+    random: false
+
+    # The list of texts that will appear
+    texts:
+    - "&f      Наиграно: #B2E7FF%statistic_time_played:days% &fд., #B2E7FF%statistic_time_played:hours% &fч., #B2E7FF%statistic_time_played:minutes% &fм.      "
